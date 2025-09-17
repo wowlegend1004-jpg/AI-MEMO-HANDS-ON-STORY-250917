@@ -66,7 +66,7 @@ export default async function HomePage() {
                     <CardContent>
                         <Link href="/notes/new">
                             <Button className="bg-blue-600 hover:bg-blue-700">
-                                첫 번째 메모 작성하기
+                                새 메모 작성하기
                             </Button>
                         </Link>
                     </CardContent>
