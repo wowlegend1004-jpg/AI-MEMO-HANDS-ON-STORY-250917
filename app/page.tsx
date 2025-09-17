@@ -64,11 +64,19 @@ export default async function HomePage() {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <Link href="/notes/new">
-                            <Button className="bg-blue-600 hover:bg-blue-700">
-                                새 메모 작성하기
-                            </Button>
-                        </Link>
+                        <div className="flex gap-3">
+                            <Link href="/notes/new">
+                                <Button className="bg-blue-600 hover:bg-blue-700">
+                                    새 메모 작성하기
+                                </Button>
+                            </Link>
+                            <Link href="/ai-chat">
+                                <Button variant="outline" className="border-blue-200 text-blue-700 hover:bg-blue-50">
+                                    <Search className="w-4 h-4 mr-2" />
+                                    AI 대화
+                                </Button>
+                            </Link>
+                        </div>
                     </CardContent>
                 </Card>
 
@@ -202,6 +210,15 @@ export default async function HomePage() {
                         )}
                     </CardContent>
                 </Card>
+
+                {/* 푸터 */}
+                <div className="mt-12 pt-8 border-t border-gray-200">
+                    <div className="flex justify-end">
+                        <p className="text-sm text-gray-500">
+                            by 구미드래곤
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

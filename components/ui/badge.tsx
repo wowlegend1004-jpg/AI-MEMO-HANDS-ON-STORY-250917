@@ -1,7 +1,7 @@
 // components/ui/badge.tsx
 // Badge UI 컴포넌트
-// shadcn/ui 스타일의 Badge 컴포넌트를 정의하여 태그, 상태 등을 표시
-// 관련 파일: components/notes/tag-display.tsx, components/notes/note-tag-section.tsx
+// 태그, 상태 표시 등을 위한 작은 라벨 컴포넌트
+// 관련 파일: components/ui/button.tsx, lib/utils.ts
 
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
